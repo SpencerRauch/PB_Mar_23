@@ -1,0 +1,32 @@
+// Let's just say we have some text here
+// that we want to be comments
+
+/* this starts the comment
+when we're ready to end it the comment
+we close it with */
+
+var produceList = ["apples", "oranges", "jalapenos"];
+//Array 2
+var accountBalances = [5000, 10, 2500];
+//Array 3
+// arrays are zero indexed
+//                     0         1            2               3            4     5
+var auntsContact = ["Jayne", "Smithe", "123 Main Street", "Springfield", "MO", 12345];
+
+console.log(auntsContact[1])
+
+auntsContact[1] = "Doe"
+
+console.log("There are " + auntsContact.length + " items in the array")
+
+//push will add to the end of the array
+accountBalances.push(9000)
+
+console.log(accountBalances)
+
+//pop will remove from the end of the array -- also returns the value that was popped
+var tooSpicy = produceList.pop();
+
+console.log(produceList)
+console.log(tooSpicy)
+
