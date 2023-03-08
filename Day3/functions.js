@@ -37,6 +37,16 @@ console.log(result)
 
 //parameters let us give our function input! the raw values we give our parameters are called arguments
 
+var height = 42;
+var age = 10;
+//               and 
+if (height >= 42 && age >= 10){
 
+}
+
+//               or
+if (height >= 42 || age >= 10){
+
+}
 
 
