@@ -58,28 +58,28 @@ var num2 = 7.8
 var num3 = -7.2
 var num4 = -7.8
 
-// Math.floor()
+// Math.floor() rounds down (left on the number line)
 
 console.log(Math.floor(num1)) 
 console.log(Math.floor(num2)) 
 console.log(Math.floor(num3)) 
 console.log(Math.floor(num4)) 
 
-// Math.ceil()
+// Math.ceil() rounds up ( right on the number line )
 
 console.log(Math.ceil(num1)) 
 console.log(Math.ceil(num2)) 
 console.log(Math.ceil(num3)) 
 console.log(Math.ceil(num4)) 
 
-// // Math.round()
+// // Math.round() rounds up for .5 or higher, down for lower than .5
 
 console.log(Math.round(num1)) 
 console.log(Math.round(num2)) 
 console.log(Math.round(num3)) 
 console.log(Math.round(num4)) 
 
-// Math.trunc()
+// Math.trunc() drops the decimal, no rounding
 
 console.log(Math.trunc(num1)) 
 console.log(Math.trunc(num2)) 
