@@ -62,5 +62,12 @@ if (num1 < num2) {
 console.log(num1);
 console.log(num2);
 
+// && (and) || (or)
 
-
+//expression              value
+// true && true            true
+// true && false          false
+// false && false         false
+// true || true            true
+// true || false           true
+// false || false         false
